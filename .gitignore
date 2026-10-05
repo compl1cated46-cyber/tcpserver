@@ -1,0 +1,66 @@
+# Build output
+build/
+out/
+cmake-build-*/
+bin/
+obj/
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+install_manifest.txt
+
+# Compiled objects, libs, executables
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.pdb
+*.ilk
+*.exp
+
+# Debug / profiling / sanitizer output
+*.log
+core
+core.*
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+perf.data*
+vgcore.*
+callgrind.out.*
+
+# Dependency caches
+.cache/
+_deps/
+vcpkg_installed/
+conan.lock
+
+# IDE / editor
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+*.pem
+*.key
+config.local.*
